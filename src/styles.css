@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootswatch/dist/darkly/bootstrap.min.css";
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){}
+#movies .col-md-3 .well{
+  height: 390px;
+}
+
+#movies .col-md-3 img{
+  height:240px;
+}
+
